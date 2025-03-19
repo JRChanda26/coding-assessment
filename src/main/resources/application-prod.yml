@@ -1,0 +1,49 @@
+# spring:
+#   datasource:
+#     url: jdbc:mysql://51.20.131.31:3306/interviewservice
+#     username: interviewservice
+#     password: interviewservice@123
+#   jpa:
+#     hibernate:
+#       ddl-auto: update
+#       dialect: org.hibernate.dialect.MySQLDialect
+
+# server:
+#   port: 8082
+spring:
+  datasource:
+    url: jdbc:mysql://51.20.131.31:3306/interviewservice
+    username: interviewservice
+    password: interviewservice@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.dialect: org.hibernate.dialect.MySQLDialect
+
+  mail:
+    host: smtpout.secureserver.net
+    port: 587
+    username: notify@parseez.com
+    password: Parseez@123
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+  jwt:
+    expiration: 36000000
+    secret: T$xgA2#lP!k&8FpS9!mD$yLq^0bG4iZpp
+
+server:
+  port: 8082
+
+cors:
+  origin:
+    urls:
+      - https://aippoint.ai/aippoint-userinterface/
+app:
+  timezone: Asia/Kolkata  # Correctly define the timezone here

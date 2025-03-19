@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: parseezuser
+  datasource:
+    url: jdbc:mysql://localhost:3306/interviewservice
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtpout.secureserver.net
+    port: 587
+    username: notify@parseez.com
+    password: Parseez@123
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+  jwt:
+    expiration: 36000000
+    secret: T$xgA2#lP!k&8FpS9!mD$yLq^0bG4iZpp
+
+  app:
+    server: localhost:3000
+
+  cors:
+    origin:
+      url: https://aippoint.ai/aippoint-spring-interviewservice
+
+server:
+  port: 8083

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: oncare
+  datasource:
+    url: jdbc:mysql://localhost:3306/parseezuser1
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  profiles:
+    active: prod
+   
