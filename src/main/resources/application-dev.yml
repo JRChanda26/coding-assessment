@@ -1,8 +1,8 @@
 spring:
   application:
-    name: parseezuser
+    name: codingassessment
   datasource:
-    url: jdbc:mysql://localhost:3306/interviewservice
+    url: jdbc:mysql://localhost:3306/codingservice
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -21,17 +21,20 @@ spring:
           auth: true
           starttls:
             enable: true
-
+ 
   jwt:
     expiration: 36000000
     secret: T$xgA2#lP!k&8FpS9!mD$yLq^0bG4iZpp
-
+ 
   app:
     server: localhost:3000
-
+ 
   cors:
     origin:
-      url: https://aippoint.ai/aippoint-spring-interviewservice
-
+      url: https://aippoint.ai/aippoint-userinterface
+ 
 server:
-  port: 8083
+  port: 8089
+app:
+  timezone: Asia/Kolkata  # Correctly define the timezone here
+ 
