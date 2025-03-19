@@ -76,7 +76,7 @@ public class CronService {
                                     +
                                     "    <p style=\"font-size:14px; color:#000000; margin:0; text-align:left; font-family:Georgia,serif; line-height:1.6; margin-bottom:0px;\">Link: &nbsp;"
                                     +
-                                    "      <a href=\"https://aippoint.ai/aippoint-userinterface/logincandidate\" style=\"font-size:14px; margin:0; text-align:left; font-family:Georgia,serif; line-height:1.6; margin-bottom:0px; color:blue;\">https://aippoint.ai/aippoint-userinterface/logincandidate</a>"
+                                    "      <a href=\"https://aippoint.ai/aippoint-userinterface/coding_login\" style=\"font-size:14px; margin:0; text-align:left; font-family:Georgia,serif; line-height:1.6; margin-bottom:0px; color:blue;\">https://aippoint.ai/aippoint-userinterface/coding_login</a>"
                                     +
                                     "    </p>\r\n" +
                                     "    <p style=\"font-size:14px; color:#000000; margin:0; text-align:left; font-family:Georgia,serif; line-height:1.6;\">Password: <span style=\"color:blue;\">%s</span></p>\r\n"
@@ -272,7 +272,7 @@ public class CronService {
                                 +
                                 "    <p style=\"font-size:14px; color:#000000; margin:0; text-align:left; font-family:Georgia,serif; line-height:1.6; margin-bottom:0px;\">Link: &nbsp;"
                                 +
-                                "      <a href=\"https://aippoint.ai/aippoint-userinterface/logincandidate\" style=\"font-size:14px; margin:0; text-align:left; font-family:Georgia,serif; line-height:1.6; margin-bottom:0px; color:blue;\">https://aippoint.ai/aippoint-userinterface/logincandidate</a>"
+                                "      <a href=\"https://aippoint.ai/aippoint-userinterface/coding_login\" style=\"font-size:14px; margin:0; text-align:left; font-family:Georgia,serif; line-height:1.6; margin-bottom:0px; color:blue;\">https://aippoint.ai/aippoint-userinterface/coding_login</a>"
                                 +
                                 "    </p>\r\n" +
                                 "    <p style=\"font-size:14px; color:#000000; margin:0; text-align:left; font-family:Georgia,serif; line-height:1.6;\">Password: <span style=\"color:blue;\">%s</span></p>\r\n"

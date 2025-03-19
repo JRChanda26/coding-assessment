@@ -72,7 +72,7 @@ public class InterviewController {
         return new ResponseEntity<>(data, HttpStatus.OK);
     }
 
-    @PostMapping("/logincandidate")
+    @PostMapping("/coding_login")
     public ResponseEntity<?> candidateLogin(@RequestParam String email,
             @RequestParam String password) {
         InterviewLoginResponseDto data = interviewService.candidateLogin(email, password);

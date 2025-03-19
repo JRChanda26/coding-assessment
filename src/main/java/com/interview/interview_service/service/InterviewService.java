@@ -81,7 +81,7 @@ public class InterviewService {
                     + interviewEntity.getPassword() + "</p>\r\n" +
                     "<p style=\"font-size:16px; color:#000000; \">" +
                     "Please find the link to schedule your interview:</p>\r\n" +
-                    "<h4 style=\"color:#000000; cursor: pointer;\"><a href=\"https://aippoint.ai/aippoint-userinterface/logincandidate\" style=\"font-size:16px; color:#000000; \">https://aippoint.ai/aippoint-userinterface/scheduleinterview</a></h4>\r\n"
+                    "<h4 style=\"color:#000000; cursor: pointer;\"><a href=\"https://aippoint.ai/aippoint-userinterface/coding_login\" style=\"font-size:16px; color:#000000; \">https://aippoint.ai/aippoint-userinterface/scheduleinterview</a></h4>\r\n"
                     +
                     "<p style=\"font-size:16px; color:#000000; \"><br/><br/>Thank you,<br/>Team Parseez</p>\r\n" +
                     "</body>\r\n" +
