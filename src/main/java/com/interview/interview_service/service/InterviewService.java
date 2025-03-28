@@ -87,7 +87,7 @@ public class InterviewService {
                     "</body>\r\n" +
                     "</html>\r\n");
             MailService.sendEmail(interviewEntity.getEmail(),
-                    "[Parseez] Please confirm your email address to schedule interview", emailContent);
+                    "[Aippoint] Please confirm your email address to schedule interview", emailContent);
         } catch (MessagingException e) {
             e.printStackTrace();
         }

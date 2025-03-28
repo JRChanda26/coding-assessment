@@ -61,7 +61,7 @@ public class CronService {
                                     "<body>\r\n" +
                                     "<div style=\"background-color:#e0e0e0; padding:10px 100px 30px 100px; text-align:center; font-family:Georgia,serif; margin:auto; width:500px;\">\r\n"
                                     +
-                                    "  <div style=\"color:blue; font-size:25px; padding-bottom:10px; font-family:Georgia,serif;\">Parseez</div>\r\n"
+                                    "  <div style=\"color:blue; font-size:25px; padding-bottom:10px; font-family:Georgia,serif;\">Aippoint</div>\r\n"
                                     +
                                     "  <div style=\"background-color:#fff; padding:15px; text-align:left;\">\r\n" +
                                     // " <div style=\"text-align:center; margin-bottom:15px;\">\r\n" +
@@ -81,7 +81,7 @@ public class CronService {
                                     "    </p>\r\n" +
                                     "    <p style=\"font-size:14px; color:#000000; margin:0; text-align:left; font-family:Georgia,serif; line-height:1.6;\">Password: <span style=\"color:blue;\">%s</span></p>\r\n"
                                     +
-                                    "    <p style=\"font-size:14px; color:#000000; margin:0; text-align:left; font-family:Georgia,serif; line-height:1.6;\"><br/><br/>Thank you,<br/>Team Parseez</p>\r\n"
+                                    "    <p style=\"font-size:14px; color:#000000; margin:0; text-align:left; font-family:Georgia,serif; line-height:1.6;\"><br/><br/>Thank you,<br/>Team Aippoint</p>\r\n"
                                     +
                                     "  </div>\r\n" +
                                     "</div>\r\n" +
@@ -92,7 +92,7 @@ public class CronService {
                     try {
                         MailService.sendEmail(
                                 email,
-                                "[Parseez] Please find login credentials to schedule interview",
+                                "[Aippoint] Please find login credentials to schedule interview",
                                 emailContent);
                         interview.setSchedulingEmail(true);
 
@@ -263,7 +263,7 @@ public class CronService {
                                 "<body>\r\n" +
                                 "<div style=\"background-color:#e0e0e0; padding:10px 100px 30px 100px; text-align:center; font-family:Georgia,serif; margin:auto; width:500px;\">\r\n"
                                 +
-                                "  <div style=\"color:blue; font-size:25px; padding-bottom:10px; font-family:Georgia,serif;\">Parseez</div>\r\n"
+                                "  <div style=\"color:blue; font-size:25px; padding-bottom:10px; font-family:Georgia,serif;\">Aippoint</div>\r\n"
                                 +
                                 "  <div style=\"background-color:#fff; padding:15px; text-align:left;\">\r\n" +
                                 "    <p style=\"font-size:14px; color:#000000; margin:0; text-align:left; font-family:Georgia,serif; line-height:1.6; margin-bottom:20px;\">Dear Candidate,</p>"
@@ -277,7 +277,7 @@ public class CronService {
                                 "    </p>\r\n" +
                                 "    <p style=\"font-size:14px; color:#000000; margin:0; text-align:left; font-family:Georgia,serif; line-height:1.6;\">Password: <span style=\"color:blue;\">%s</span></p>\r\n"
                                 +
-                                "    <p style=\"font-size:14px; color:#000000; margin:0; text-align:left; font-family:Georgia,serif; line-height:1.6;\"><br/><br/>Thank you,<br/>Team Parseez</p>\r\n"
+                                "    <p style=\"font-size:14px; color:#000000; margin:0; text-align:left; font-family:Georgia,serif; line-height:1.6;\"><br/><br/>Thank you,<br/>Team Aippoint</p>\r\n"
                                 +
                                 "  </div>\r\n" +
                                 "</div>\r\n" +
@@ -285,7 +285,7 @@ public class CronService {
                                 "</html>\r\n",
                         userdetails.getPassword());
                 MailService.sendEmail(userdetails.getEmail(),
-                        " [Parseez] Please find login credentials to join interview",
+                        " [Aippoint] Please find login credentials to join interview",
                         emailContent);
                 userdetails.setTokenGenerated(false);
                 interviewRepository.save(userdetails);
